@@ -1,0 +1,68 @@
+.roditelj{
+    display: grid;
+    width: 490px;
+    height: 300px;
+    padding: 4px 8px;
+    grid-template:  "sg bp rep rep rep"
+                    "sg bp lk lk lk"
+                    "fo fo pre pre grb"
+                    "fo fo ime ime cg"
+                    "fo fo dr dr cg"
+                    "fo fo pol reg ss"
+                    "fo fo diz diz ss"
+                    "fo fo dva dva ss"
+                    "izd izd izd izd po";
+    grid-template-columns: 80px 80px 100px 100px 130px;
+    grid-template-rows: 30px 30px 35px 35px 35px 35px 35px 35px 30px;
+    border: 3px solid black;
+
+    
+}
+
+.sg {
+    grid-area: sg;
+}
+.fo {
+    grid-area: fo;
+}
+.lk {
+    grid-area: lk;
+}
+.pre {
+    grid-area: pre;
+}
+.ime {
+    grid-area: ime;
+}
+.cg {
+    grid-area: cg;
+}
+.dr {
+    grid-area: dr;
+}
+.pol {
+    grid-area: pol;
+}
+.reg {
+    grid-area: reg;
+}
+
+.ss {
+    grid-area: ss;
+}
+.dva {
+    grid-area: dva;
+}
+.diz {
+    grid-area: diz;
+}
+.izd{
+    grid-area: izd;
+}
+.po {
+    grid-area: po;
+}
+.roditelj * {
+    border: 1px solid red;
+    font-size: 13px;
+}
